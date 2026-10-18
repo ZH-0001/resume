@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="李振豪的个人简历：华北水利水电大学软件工程本科，Java 后端开发方向，展示技术能力、项目经历与教育背景。">
+  <meta name="theme-color" content="#174c3c">
+  <title>李振豪 · Java 后端开发实习简历</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至简历内容</a>
+  <header class="topbar">
+    <a class="wordmark" href="#top" aria-label="李振豪，返回顶部"><span class="monogram">ZH</span> 李振豪<span class="wordmark-note"> / 个人简历</span></a>
+    <nav aria-label="主导航"><a href="#projects">项目经历</a><a href="#skills">专业技能</a><a href="#education">教育背景</a><a href="#contact">联系我 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> 软件工程 · 2027 届本科</p>
+        <h1 id="hero-title">你好，我是<span>李振豪<span class="period">。</span></span></h1>
+        <p class="hero-role">Java 后端开发<span class="role-divider"> / </span>实习简历</p>
+        <p class="hero-description">华北水利水电大学软件工程专业在读。围绕 Java、Spring Boot 与 MySQL 进行项目实践，关注业务流程、接口开发与 AI 工具应用。</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">查看项目 <span aria-hidden="true">↓</span></a><a class="button secondary" href="mailto:15903815561@163.com">邮件联系 <span aria-hidden="true">↗</span></a><button class="print-button" type="button" id="print-resume">打印简历</button></div>
+        <div class="hero-meta"><span>河南 · 郑州</span><span>2027 年预计毕业</span><a href="https://github.com/ZH-0001" target="_blank" rel="noopener noreferrer">GitHub / ZH-0001 ↗</a></div>
+      </div>
+      <aside class="profile-card" aria-label="个人信息概览">
+        <div class="card-top"><span>PROFILE / 01</span><span class="card-mark" aria-hidden="true">✳</span></div>
+        <p class="profile-initials" aria-hidden="true">ZH<span>_</span></p>
+        <p class="profile-label">把课堂所学，写进项目。</p>
+        <div class="profile-facts"><div><span>专业方向</span><strong>软件工程 · 本科</strong></div><div><span>在校绩点</span><strong>3.95 <small>GPA</small></strong></div><div><span>核心技术</span><strong>Java / Spring Boot / MySQL</strong></div></div>
+        <div class="card-footer"><span>2023 — 2027</span><span>NCWU</span></div>
+      </aside>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED PROJECTS</p><h2 id="projects-title">项目经历</h2></div><p>从业务实现到 AI 应用的开发实践</p></div>
+      <article class="project featured-project">
+        <div class="project-side"><span class="project-number">01</span><span class="project-type">课程设计</span><div class="project-symbol" aria-hidden="true">{ }</div></div>
+        <div class="project-main"><div class="project-heading"><h3>当当书城</h3><span class="project-category">在线图书商城</span></div><p class="project-intro">基于 Spring Boot 的在线图书商城，涵盖图书分类浏览与搜索、购物车、订单结算和在线支付，配套分类、订单及用户管理后台。</p><ul class="project-details"><li>开发用户注册、登录及收货地址管理模块。</li><li>实现购物车管理、订单生成与结算，串联图书选购到下单的业务流程。</li><li>对接支付宝沙箱，完成订单在线支付功能。</li></ul><ul class="tags" aria-label="技术栈"><li>JDK 17</li><li>Spring Boot</li><li>MyBatis</li><li>MySQL 8.0</li><li>Maven</li><li>支付宝沙箱</li></ul></div>
+      </article>
+      <div class="project-grid">
+        <article class="project"><div class="project-card-top"><span class="project-number">02</span><span class="ai-label">基于 AI 生成</span></div><h3>高校自习室智能预约系统</h3><p class="project-intro">前后端分离的预约系统，支持自习室查询、时段选座、预约取消、个性化座位推荐，以及管理与统计后台。</p><ul class="project-details"><li>采用 Session、BCrypt 与 CSRF 防护，实现注册、登录及学生 / 管理员分角色访问。</li><li>通过数据库事务、行级锁与请求幂等处理，防止座位重复预约及用户时段冲突。</li><li>根据历史预约的自习室、座位类型、插座及安静区偏好，进行加权评分与个性化推荐。</li></ul><ul class="tags" aria-label="技术栈"><li>JDK 21</li><li>Spring Boot</li><li>MyBatis-Plus</li><li>MySQL 8.0</li><li>Maven</li><li>Vue 3</li><li>Element Plus</li></ul><a class="project-link" href="https://github.com/ZH-0001/ProjectTest" target="_blank" rel="noopener noreferrer">查看 GitHub 源码 <span aria-hidden="true">↗</span></a></article>
+        <article class="project"><div class="project-card-top"><span class="project-number">03</span><span class="ai-label">基于 AI 生成</span></div><h3>AI 智能旅游行程规划系统</h3><p class="project-intro">前后端分离的行程规划系统，支持目的地检索、个性化行程生成、预算核算、方案修改及历史版本管理。</p><ul class="project-details"><li>采用 Session、BCrypt 与 CSRF 防护，实现注册、登录及普通用户 / 管理员分角色访问。</li><li>实现条件提交、异步生成、状态轮询、景点来源校验与预算计算，通过幂等、限流和超时处理保障生成流程。</li><li>接入博查网页搜索与 DeepSeek API，按出行条件生成结构化行程，支持方案修改、历史版本保存及费用追溯。</li></ul><ul class="tags" aria-label="技术栈"><li>JDK 21</li><li>Spring Boot</li><li>MyBatis-Plus</li><li>MySQL 8.0</li><li>Maven</li><li>Vue 3</li><li>Element Plus</li><li>DeepSeek API</li><li>Bocha Search API</li></ul><a class="project-link" href="https://github.com/ZH-0001/AITravel" target="_blank" rel="noopener noreferrer">查看 GitHub 源码 <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title"><div class="section-heading"><div><p class="eyebrow">02 / TECHNICAL SKILLS</p><h2 id="skills-title">专业技能</h2></div><p>后端开发为主，持续拓展技术边界</p></div><div class="skills-grid">
+      <article class="skill"><span class="skill-index">01</span><h3>Java 基础</h3><p>掌握面向对象编程、集合框架、IO 流、多线程、异常处理、泛型及 Lambda 表达式。</p></article>
+      <article class="skill"><span class="skill-index">02</span><h3>后端框架</h3><p>掌握 Spring Boot 基础用法，可开发接口与业务模块；熟悉 MyBatis，了解 MyBatis-Plus。</p></article>
+      <article class="skill"><span class="skill-index">03</span><h3>数据库</h3><p>能够编写 MySQL 增删改查与多表关联 SQL，掌握事务的基本使用。</p></article>
+      <article class="skill"><span class="skill-index">04</span><h3>工程与测试</h3><p>使用 Git 进行版本管理，使用 Maven 管理依赖、处理依赖冲突及打包部署；使用 Postman 测试接口。</p></article>
+      <article class="skill"><span class="skill-index">05</span><h3>接口与前端</h3><p>熟悉 HTTP / HTTPS、GET / POST 请求及参数接收；了解 Vue。</p></article>
+      <article class="skill"><span class="skill-index">06</span><h3>AI 工具</h3><p>了解 Spring AI，能够使用 Claude Code 和 Codex 辅助项目开发。</p></article>
+    </div></section>
+
+    <section class="section education-section" id="education" aria-labelledby="education-title"><div class="section-heading"><div><p class="eyebrow">03 / EDUCATION & HONORS</p><h2 id="education-title">教育与荣誉</h2></div></div><div class="education-grid"><article class="education-card"><p class="education-date">2023.09 — 2027.07 <span>预计毕业</span></p><h3>华北水利水电大学</h3><p class="degree">软件工程 <span>本科</span></p><div class="gpa"><strong>3.95</strong><span>在校绩点</span></div><h4>主修课程</h4><p class="courses">C 语言程序设计、数据结构、计算机组成原理、操作系统、计算机网络、Python 程序设计、Java 框架技术、软件工程、Linux 操作系统、专业英语、软件测试、数据智能处理与分析。</p></article><article class="honors-card"><h3>荣誉与证书</h3><ul class="honors"><li><span>01</span><div><strong>校级计算机竞赛一等奖</strong><p>蓝桥杯省级三等奖</p></div></li><li><span>02</span><div><strong>校级一等学业奖学金 · 3 次</strong><p>校级一等优秀学生奖学金 · 2 次</p></div></li><li><span>03</span><div><strong>校级三好学生</strong><p>综合表现荣誉</p></div></li><li><span>04</span><div><strong>大学英语四级 / 六级</strong><p>CET-4 · 506 分　 /　 CET-6 · 428 分</p></div></li></ul></article></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">04 / GET IN TOUCH</p><h2 id="contact-title">期待与你交流<span>。</span></h2><p>Java 后端开发方向 · 2027 届软件工程本科</p></div><div class="contact-links"><a href="mailto:15903815561@163.com"><span>邮箱</span><strong>15903815561@163.com</strong><span aria-hidden="true">↗</span></a><a href="tel:+8615903815561"><span>电话</span><strong>159 0381 5561</strong><span aria-hidden="true">↗</span></a><a href="https://github.com/ZH-0001" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>ZH-0001</strong><span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer><span>© 2026 李振豪</span><span>持续学习，认真构建。</span><a href="#top">返回顶部 ↑</a></footer>
+</body>
+</html>
